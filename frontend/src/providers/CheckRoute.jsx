@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const CheckRoute = ({ children }) => {
   const token = localStorage.getItem("token");
   const navigate = useNavigate();
